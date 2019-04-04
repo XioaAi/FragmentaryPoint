@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Rotate3dAnimation">
+        <attr name="rollType" format="enum">
+            <enum name="x" value="0"/>
+            <enum name="y" value="1"/>
+            <enum name="z" value="2"/>
+        </attr>
+        <attr name="fromDeg" format="float" />
+        <attr name="toDeg" format="float" />
+        <attr name="pivotX" format="fraction"/>
+        <attr name="pivotY" format="fraction" />
+    </declare-styleable>
+
+    <attr name="qmui_tab_sign_count_view" format="reference"/>
+    <attr name="qmui_tab_sign_count_view_minSize" format="dimension"/>
+    <attr name="qmui_tab_sign_count_view_minSize_with_text" format="dimension"/>
+    <attr name="qmui_tab_sign_count_view_bg" format="reference"/>
+    <attr name="qmui_tab_sign_count_view_padding_horizontal" format="dimension"/>
+    <attr name="QMUITabSegmentStyle" format="reference"/>
+    <declare-styleable name="QMUITabSegment">
+        <attr name="qmui_tab_indicator_height" format="dimension"/>
+        <attr name="qmui_tab_has_indicator" format="boolean"/>
+        <attr name="android:textSize"/>
+        <attr name="qmui_tab_indicator_top" format="boolean"/>
+        <attr name="qmui_tab_mode" format="enum">
+            <enum name="scrollable" value="0"/>
+            <enum name="fixed" value="1"/>
+        </attr>
+        <attr name="qmui_tab_space" format="dimension"/>
+        <attr name="qmui_tab_icon_position" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr>
+        <attr name="qmui_tab_typeface_provider" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="custom_viewgroup">
+        <attr name="default_width" format="dimension"/>
+        <attr name="default_height" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="ArcView">
+        <attr name="arcHeight"/>
+        <attr name="bgColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="horization_progress_view">
+        <attr name="reach_height" format="dimension"/>
+        <attr name="reach_color" format="color"/>
+        <attr name="unreach_color" format="color"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text_size" format="dimension"/>
+    </declare-styleable>
+</resources>

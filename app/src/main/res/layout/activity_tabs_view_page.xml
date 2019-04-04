@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zxd.xiaoabapp.ui.TabsViewPageActivity">
+
+    <com.zxd.xiaoabapp.widget.QMUIViewPager
+        android:id="@+id/pager"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="49dp"
+        android:fitsSystemWindows="true"/>
+    <com.zxd.xiaoabapp.widget.QMUITabSegment
+        android:id="@+id/tabs"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:textSize="14sp"
+        app:qmui_tab_icon_position="top"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"/>
+
+</FrameLayout>

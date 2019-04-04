@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="gouxuan_weixuanzhong">&#xe601;</string>
+
+    <string name="guojishoukuan">&#xe602;</string>
+
+    <string name="home">&#xe604;</string>
+
+    <string name="group">&#xe628;</string>
+
+    <string name="heilongjiangtubiao">&#xe605;</string>
+
+    <string name="group1">&#xe606;</string>
+
+    <string name="houtui_copy">&#xe607;</string>
+
+    <string name="icon">&#xe608;</string>
+
+    <string name="icon1">&#xe609;</string>
+
+    <string name="icon2">&#xe60a;</string>
+
+    <string name="iconfontdianhua">&#xe62e;</string>
+
+    <string name="iconzhuanqu">&#xe60c;</string>
+
+    <string name="jiaoyixiane">&#xe60d;</string>
+
+    <string name="iconshouji">&#xe60e;</string>
+
+    <string name="icon3">&#xe60f;</string>
+
+    <string name="iconliushuizijin">&#xe610;</string>
+
+    <string name="jiaoyizonge">&#xe611;</string>
+
+    <string name="jiesuanshoukuan">&#xe612;</string>
+
+    <string name="image">&#xe618;</string>
+
+    <string name="kefu">&#xe614;</string>
+
+    <string name="left">&#xe693;</string>
+
+    <string name="lianmengzhanghujilu">&#xe616;</string>
+
+    <string name="kefu1">&#xe617;</string>
+
+    <string name="location">&#xe603;</string>
+
+    <string name="liushuijilu">&#xe619;</string>
+
+    <string name="liushuizhang">&#xe61a;</string>
+
+    <string name="lock">&#xe64d;</string>
+
+    <string name="mdzfewm">&#xe617;</string>
+
+    <string name="mdzfewm1">&#xe61d;</string>
+
+    <string name="mima">&#xe61e;</string>
+
+    <string name="mima1">&#xe61f;</string>
+
+    <string name="mima2">&#xe620;</string>
+
+    <string name="mima_copy">&#xe621;</string>
+
+    <string name="ok">&#xe6b2;</string>
+
+    <string name="moban">&#xe623;</string>
+
+    <string name="paizhaoshangchuan">&#xe624;</string>
+
+    <string name="ordinarymobile">&#xe625;</string>
+
+    <string name="paizhaoshangchuan1">&#xe626;</string>
+
+    <string name="paizhao">&#xe627;</string>
+
+    <string name="phone">&#xe645;</string>
+
+    <string name="pin">&#xe629;</string>
+
+    <string name="purse">&#xe7ab;</string>
+
+    <string name="qiandai">&#xe62b;</string>
+
+    <string name="qianjin">&#xe62c;</string>
+
+    <string name="qiandai1">&#xe62d;</string>
+
+    <string name="qiandai2">&#xe62e;</string>
+
+    <string name="qianjin1">&#xe62f;</string>
+
+    <string name="qiandaizi">&#xe630;</string>
+
+    <string name="qianjin2">&#xe631;</string>
+
+    <string name="right">&#xe694;</string>
+
+    <string name="saoyisao">&#xe633;</string>
+
+    <string name="receipt">&#xe634;</string>
+
+    <string name="qiandai3">&#xe635;</string>
+
+    <string name="saoyisao1">&#xe636;</string>
+
+    <string name="saoyisao2">&#xe637;</string>
+
+    <string name="select">&#xe638;</string>
+
+    <string name="shanchu">&#xe639;</string>
+
+    <string name="shanchu1">&#xe63a;</string>
+
+    <string name="service">&#xe601;</string>
+
+    <string name="shanchu2">&#xe63c;</string>
+
+    <string name="shezhi">&#xe63d;</string>
+
+    <string name="shezhi1">&#xe63e;</string>
+
+    <string name="shezhi2">&#xe63f;</string>
+
+    <string name="shezhi3">&#xe640;</string>
+
+    <string name="shezhi4">&#xe641;</string>
+
+    <string name="shijidaozhang">&#xe642;</string>
+
+    <string name="shouji">&#xe643;</string>
+
+    <string name="shouji1">&#xe644;</string>
+
+    <string name="shouji2">&#xe645;</string>
+
+    <string name="shouji3">&#xe646;</string>
+
+    <string name="shoukuan">&#xe63a;</string>
+
+    <string name="shouji4">&#xe648;</string>
+
+    <string name="shoukuan1">&#xe649;</string>
+
+    <string name="shoukuan2">&#xe64a;</string>
+
+    <string name="shoukuan3">&#xe64b;</string>
+
+    <string name="shoukuan4">&#xe64c;</string>
+
+    <string name="shouyedianji">&#xe64d;</string>
+
+    <string name="shoukuanerweima">&#xe64e;</string>
+
+    <string name="shouyedianji1">&#xe64f;</string>
+
+    <string name="shouyedianji_">&#xe650;</string>
+
+    <string name="shouye_dianjishi">&#xe651;</string>
+
+    <string name="shouyedianji2">&#xe652;</string>
+
+    <string name="shouyeweidianji">&#xe653;</string>
+
+    <string name="shouyeweidianji1">&#xe654;</string>
+
+    <string name="shouye_weidianjishi">&#xe655;</string>
+
+    <string name="star">&#xe63c;</string>
+
+    <string name="star_round">&#xe657;</string>
+
+    <string name="spend">&#xe658;</string>
+
+    <string name="sweep">&#xe659;</string>
+
+    <string name="tanzhen">&#xe65a;</string>
+
+    <string name="tanzhen1">&#xe65b;</string>
+
+    <string name="sweep1">&#xe65c;</string>
+
+    <string name="tel">&#xe65d;</string>
+
+    <string name="tel_bling">&#xe65e;</string>
+
+    <string name="tianjia">&#xe65f;</string>
+
+    <string name="tianjia1">&#xe660;</string>
+
+    <string name="tianjia2">&#xe661;</string>
+
+    <string name="tixian">&#xe662;</string>
+
+    <string name="tixian1">&#xe663;</string>
+
+    <string name="ttpodicon">&#xe664;</string>
+
+    <string name="tubiaozhizuomoban">&#xe665;</string>
+
+    <string name="tubiao">&#xe666;</string>
+
+    <string name="tuding">&#xe667;</string>
+
+    <string name="tuding1">&#xe668;</string>
+
+    <string name="unselect">&#xe78d;</string>
+
+    <string name="unie">&#xe66a;</string>
+
+    <string name="user_card">&#xe61b;</string>
+
+    <string name="user_copy_copy">&#xe66c;</string>
+
+    <string name="user">&#xe619;</string>
+
+    <string name="user_head">&#xe63d;</string>
+
+    <string name="wait">&#xe600;</string>
+
+    <string name="wait1">&#xe670;</string>
+
+    <string name="weibiaotishouye">&#xe671;</string>
+
+    <string name="wallet">&#xe672;</string>
+
+    <string name="weixinzhifu">&#xe673;</string>
+
+    <string name="wechat">&#xe697;</string>
+
+    <string name="weixinzhifu1">&#xe675;</string>
+
+    <string name="wo">&#xe676;</string>
+
+    <string name="wode">&#xe677;</string>
+
+    <string name="wode1">&#xe678;</string>
+
+    <string name="wode2">&#xe679;</string>
+
+    <string name="wode3">&#xe67a;</string>
+
+    <string name="wode4">&#xe67b;</string>
+
+    <string name="wo1">&#xe67c;</string>
+
+    <string name="wodedingdan">&#xe67d;</string>
+
+    <string name="wode5">&#xe67e;</string>
+
+    <string name="wode6">&#xe67f;</string>
+
+    <string name="weixinzhifu2">&#xe680;</string>
+
+    <string name="wodeshoukuanma">&#xe681;</string>
+
+    <string name="wodezhanghu_zijinjil">&#xe682;</string>
+
+    <string name="wxpay">&#xe683;</string>
+
+    <string name="wodezhanghu">&#xe684;</string>
+
+    <string name="x">&#xe685;</string>
+
+    <string name="xuan">&#xe686;</string>
+
+    <string name="xing">&#xe687;</string>
+
+    <string name="xing1">&#xe688;</string>
+
+    <string name="yinxingqia">&#xe60b;</string>
+
+    <string name="yinxingqia1">&#xe68a;</string>
+
+    <string name="xinbanshouyeweixuanz">&#xe68b;</string>
+
+    <string name="yes">&#xe68c;</string>
+
+    <string name="yinxingqiaqingkuang">&#xe68d;</string>
+
+    <string name="yinxingqia2">&#xe68e;</string>
+
+    <string name="yuan">&#xe68f;</string>
+
+    <string name="zhanghuxinxi">&#xe690;</string>
+
+    <string name="zhanghu_copy">&#xe691;</string>
+
+    <string name="zhanghuxinxi1">&#xe692;</string>
+
+    <string name="zhifubao">&#xe693;</string>
+
+    <string name="zhifu">&#xe694;</string>
+
+    <string name="zhifubao1">&#xe695;</string>
+
+    <string name="zhifubao2">&#xe696;</string>
+
+    <string name="zhuye_dianji">&#xe697;</string>
+
+    <string name="zhifubao3">&#xe698;</string>
+
+    <string name="zijinliushui">&#xe636;</string>
+
+    <string name="zijinliushui1">&#xe69a;</string>
+
+    <string name="icon_test">&#xe69b;</string>
+
+    <string name="icon_test1">&#xe69c;</string>
+
+    <string name="icon_test2">&#xe69d;</string>
+
+    <string name="add">&#xe69e;</string>
+
+    <string name="add1">&#xe69f;</string>
+
+    <string name="icon_test3">&#xe6a0;</string>
+
+    <string name="alipay">&#xe61a;</string>
+
+    <string name="icon_test4">&#xe6a2;</string>
+
+    <string name="icon_test5">&#xe6a3;</string>
+
+    <string name="icon_test6">&#xe6a4;</string>
+
+    <string name="arrow_right">&#xe6a5;</string>
+
+    <string name="barscan">&#xe6a6;</string>
+
+    <string name="back">&#xe67f;</string>
+
+    <string name="bank_card">&#xe6a8;</string>
+
+    <string name="camera">&#xe650;</string>
+
+    <string name="close">&#xe6e1;</string>
+
+    <string name="comiiserweima">&#xe6ab;</string>
+
+    <string name="config">&#xe623;</string>
+
+    <string name="daozhangguanli">&#xe6ad;</string>
+
+    <string name="del">&#xe6ae;</string>
+
+    <string name="dcode">&#xe699;</string>
+
+    <string name="dianhua">&#xe6b0;</string>
+
+    <string name="dianhua1">&#xe6b1;</string>
+
+    <string name="dianhua2">&#xe6b2;</string>
+
+    <string name="dianjitaishouye">&#xe6b3;</string>
+
+    <string name="dianpu">&#xe860;</string>
+
+    <string name="dianjishouye">&#xe6b5;</string>
+
+    <string name="dianpu1">&#xe6b6;</string>
+
+    <string name="dianpu2">&#xe6b7;</string>
+
+    <string name="dingwei">&#xe6b8;</string>
+
+    <string name="dianziyinhangjiaoyix">&#xe6b9;</string>
+
+    <string name="dingwei1">&#xe6ba;</string>
+
+    <string name="dingwei2">&#xe6bb;</string>
+
+    <string name="dingwei3">&#xe6bc;</string>
+
+    <string name="dingwei4">&#xe6bd;</string>
+
+    <string name="dw">&#xe6be;</string>
+
+    <string name="erweima">&#xe6bf;</string>
+
+    <string name="fail">&#xe6b7;</string>
+
+    <string name="fail1">&#xe6c1;</string>
+
+    <string name="fuwu_shoukuan">&#xe6c2;</string>
+
+    <string name="geren">&#xe6c3;</string>
+
+    <string name="gonggao">&#xe61d;</string>
+
+    <string name="gonggao1">&#xe6c5;</string>
+
+    <string name="geren1">&#xe6c6;</string>
+
+    <string name="gonggao2">&#xe6c7;</string>
+
+    <string name="gou">&#xe6c8;</string>
+
+    <string name="gonggao3">&#xe6c9;</string>
+
+    <string name="gou1">&#xe6ca;</string>
+
+    <string name="gou2">&#xe6cb;</string>
+
+    <string name="gou3">&#xe6cc;</string>
+
+    <string name="gouxuan">&#xe6cd;</string>
+
+    <string name="gouxuan1">&#xe6ce;</string>
+
+    <string name="gouxuan_weixuanzhong1">&#xe6cf;</string>
+
+    <string name="receipt_merchant">&#xe602;</string>
+    <string name="search">&#xe616;</string>
+    <string name="waiting">&#xe64b;</string>
+    <string name="credit_aging">&#xe624;</string>
+    <string name="sale">&#xe62d;</string>
+    <string name="goods">&#xe67b;</string>
+    <string name="gather_record">&#xe60e;</string>
+
+</resources>

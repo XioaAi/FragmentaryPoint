@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zxd.xiaoabapp.MainActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingTop="@dimen/dp_30"
+            android:paddingBottom="@dimen/dp_30">
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/custom_img_test"
+                style="@style/dialog_blue_button"
+                android:text="带动画的弹框"/>
+
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/pager_sliding_tab"
+                style="@style/dialog_blue_button"
+                android:text="可滑动的Tab"
+                android:layout_marginTop="@dimen/dp_10"/>
+
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/tab_viewpager_tab"
+                style="@style/dialog_blue_button"
+                android:text="可滑动的Tab+ViewPager"
+                android:layout_marginTop="@dimen/dp_10"/>
+
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/shopping_tab"
+                style="@style/dialog_blue_button"
+                android:text="添加到购物车动画"
+                android:layout_marginTop="@dimen/dp_10"/>
+
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/arc_tab"
+                style="@style/dialog_blue_button"
+                android:text="画椭圆"
+                android:layout_marginTop="@dimen/dp_10"/>
+
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/gallery"
+                style="@style/dialog_blue_button"
+                android:text="Gallery"
+                android:layout_marginTop="@dimen/dp_10"/>
+
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/viewpager"
+                style="@style/dialog_blue_button"
+                android:text="ViewPager"
+                android:layout_marginTop="@dimen/dp_10"/>
+
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/TextInputLayout"
+                style="@style/dialog_blue_button"
+                android:text="TextInputLayout"
+                android:layout_marginTop="@dimen/dp_10"/>
+
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/CoordinatorLayout"
+                style="@style/dialog_blue_button"
+                android:text="CoordinatorLayout1"
+                android:layout_marginTop="@dimen/dp_10"/>
+
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/CoordinatorLayout1"
+                style="@style/dialog_blue_button"
+                android:text="CoordinatorLayout2"
+                android:layout_marginTop="@dimen/dp_10"/>
+
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/animation"
+                style="@style/dialog_blue_button"
+                android:text="animation"
+                android:layout_marginTop="@dimen/dp_10"/>
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/messenger"
+                style="@style/dialog_blue_button"
+                android:text="跨进程通信-messenger"
+                android:layout_marginTop="@dimen/dp_10"/>
+
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/aidl"
+                style="@style/dialog_blue_button"
+                android:text="跨进程通信-aidl"
+                android:layout_marginTop="@dimen/dp_10"/>
+
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/custom_view"
+                style="@style/dialog_blue_button"
+                android:text="自定义View"
+                android:layout_marginTop="@dimen/dp_10"/>
+
+            <Button
+                android:layout_centerHorizontal="true"
+                android:id="@+id/custom_view_progress"
+                style="@style/dialog_blue_button"
+                android:text="自定义进度条"
+                android:layout_marginTop="@dimen/dp_10"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

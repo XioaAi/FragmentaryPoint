@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zxd.xiaoabapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:persistent="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <service
+            android:name=".progress_messager.MessageService"
+            android:process=":com.zxd.xiaoabapp.progress_messager.service" />
+        <service
+            android:name=".progress_aidl.AIDLService"
+            android:process=":com.zxd.xiaoabapp.progress_aidl.service" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".base.BaseActivity"
+            android:label="@string/title_activity_base"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.SweetAlertDialogActivity" />
+        <activity android:name=".ui.PagerSlidingTabStripActivity" />
+        <activity android:name=".ui.TabsViewPageActivity" />
+        <activity android:name=".ui.ViewPagerFragmentActivity" />
+        <activity android:name=".ui.ShoppingActivity" />
+        <activity android:name=".ui.ConstraintLayoutActivity" />
+        <activity android:name=".ui.DrawArcActivity" />
+        <activity android:name=".ui.GalleryDemoActivity" />
+        <activity android:name=".ui.ViewPagerActivity" />
+        <activity android:name=".ui.TextInputLayoutActivity" />
+        <activity android:name=".ui.CoordinatorLayout1Activity" />
+        <activity android:name=".ui.CollapsingToolBarLayoutActivity" />
+        <activity android:name=".ui.AnimationSetActivity" />
+        <activity android:name=".ui.MessengerActivity" />
+        <activity android:name=".ui.AIDLActivity" />
+        <activity android:name=".ui.CustomViewActivity" />
+        <activity android:name=".ui.CustomProgressViewActivity"></activity>
+    </application>
+
+</manifest>

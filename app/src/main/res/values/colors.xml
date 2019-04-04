@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/blue</color>
+    <color name="colorPrimaryDark">@color/blue</color>
+
+    <color name="half_transparent_black">#99000000</color>
+
+    <!--主色调-->
+    <color name="blue">#14ABFE</color>
+    <color name="blue_dark">#1e9de4</color>
+
+    <color name="red">#EF4F4F</color>
+    <color name="red_dark">#d74747</color>
+
+    <color name="yellow">#FFB400</color>
+    <color name="yellow_dark">#e6a200</color>
+
+    <color name="green">#2AA642</color>
+    <color name="green_dark">#388f09</color>
+    <color name="weixin_bg">#559e67</color>
+    <color name="liushui">#35D5AC</color>
+    <color name="credit">#81C827</color>
+
+
+    <color name="page_bg">#F8F8F8</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="mask">#89000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="black3">#333333</color>
+    <color name="black6">#666666</color>
+    <color name="black9">#999999</color>
+    <color name="gray_c">#cccccc</color>
+    <color name="gray_dc">#dcdcdc</color>
+    <color name="gray_e">#eeeeee</color>
+
+
+    <color name="lineColor">@color/gray_c</color>
+
+    <color name="home_head">#9CDDFD</color>
+    <color name="home_shoukuan">#13ABFE</color>
+    <color name="home_record">#3D64FF</color>
+
+</resources>
