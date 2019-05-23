@@ -2,7 +2,9 @@ package com.zxd.xiaoabapp.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.Canvas;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -32,9 +34,15 @@ public class CustomLinearLayout extends ViewGroup {
     }
 
     @Override
+    protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
+        Log.e("XiaoAi","onDraw--------");
+    }
+
+    @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-
+        Log.e("XiaoAi","onMeasure--------");
         /*int width = getViewSize(defaultWidth,widthMeasureSpec);
         int height = getViewSize(defaultHeight,heightMeasureSpec);
 
@@ -120,6 +128,7 @@ public class CustomLinearLayout extends ViewGroup {
 
     @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
+        Log.e("XiaoAi","onLayout--------");
         //int left, int top, int right, int bottom
         int childCount = getChildCount();
         //记录当前的高度位置

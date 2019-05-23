@@ -3,15 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.zxd.xiaoabapp">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:persistent="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:persistent="true"
         android:theme="@style/AppTheme"
         tools:replace="android:icon">
+        <activity android:name=".ui.MVVMDemoActivity"></activity>
+        <activity android:name=".ui.LitePagerActivity" />
+        <activity android:name=".ui.DrawScrollActivity" />
+        <activity android:name=".ui.CustomViewGroupActivity" />
+        <activity android:name=".ui.CustomViewBitmapActivity" />
+
         <service
             android:name=".progress_messager.MessageService"
             android:process=":com.zxd.xiaoabapp.progress_messager.service" />
@@ -22,7 +30,7 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -46,7 +54,7 @@
         <activity android:name=".ui.MessengerActivity" />
         <activity android:name=".ui.AIDLActivity" />
         <activity android:name=".ui.CustomViewActivity" />
-        <activity android:name=".ui.CustomProgressViewActivity"></activity>
+        <activity android:name=".ui.CustomProgressViewActivity" />
     </application>
 
 </manifest>

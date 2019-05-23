@@ -54,4 +54,23 @@
         <attr name="text_color" format="color"/>
         <attr name="text_size" format="dimension"/>
     </declare-styleable>
+
+
+    <declare-styleable name="ReelView">
+        <attr name="textColor" format="color"/>
+        <attr name="reelColor" format="color"/>
+        <attr name="paperColor" format="color"/>
+        <attr name="reelWidth" format="dimension"/>
+        <attr name="text" format="string"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="duration" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="LitePager">
+        <attr name="minAlpha" format="dimension"/>
+        <attr name="maxAlpha" format="dimension"/>
+        <attr name="minScale" format="dimension"/>
+        <attr name="maxScale" format="dimension"/>
+    </declare-styleable>
+
 </resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LitePagerActivity">
+
+    <com.zxd.xiaoabapp.view.LitePager
+        android:id="@+id/litePager"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:background="#F00" />
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:background="#0F0" />
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:background="#00F" />
+    </com.zxd.xiaoabapp.view.LitePager>
+
+</android.support.constraint.ConstraintLayout>

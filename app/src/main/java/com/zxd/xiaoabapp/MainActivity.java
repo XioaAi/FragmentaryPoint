@@ -15,42 +15,41 @@ import com.zxd.xiaoabapp.ui.CollapsingToolBarLayoutActivity;
 import com.zxd.xiaoabapp.ui.CoordinatorLayout1Activity;
 import com.zxd.xiaoabapp.ui.CustomProgressViewActivity;
 import com.zxd.xiaoabapp.ui.CustomViewActivity;
+import com.zxd.xiaoabapp.ui.CustomViewBitmapActivity;
+import com.zxd.xiaoabapp.ui.CustomViewGroupActivity;
 import com.zxd.xiaoabapp.ui.DrawArcActivity;
+import com.zxd.xiaoabapp.ui.DrawScrollActivity;
 import com.zxd.xiaoabapp.ui.GalleryDemoActivity;
+import com.zxd.xiaoabapp.ui.LitePagerActivity;
+import com.zxd.xiaoabapp.ui.MVVMDemoActivity;
 import com.zxd.xiaoabapp.ui.MessengerActivity;
 import com.zxd.xiaoabapp.ui.PagerSlidingTabStripActivity;
 import com.zxd.xiaoabapp.ui.ShoppingActivity;
 import com.zxd.xiaoabapp.ui.SweetAlertDialogActivity;
-import com.zxd.xiaoabapp.ui.TabsViewPageActivity;
 import com.zxd.xiaoabapp.ui.TextInputLayoutActivity;
 import com.zxd.xiaoabapp.ui.ViewPagerActivity;
 import com.zxd.xiaoabapp.ui.ViewPagerFragmentActivity;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class MainActivity extends BaseActivity {
 
-    @BindView(R.id.custom_img_test)
-    Button customAlertBtn;
-    @BindView(R.id.pager_sliding_tab)
-    Button pagerSlidingTab;
-
-    private Handler handler;
+    @BindView(R.id.mvvm)
+    Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
     }
 
 
     @OnClick({R.id.custom_img_test,R.id.pager_sliding_tab,R.id.tab_viewpager_tab,R.id.shopping_tab,R.id.arc_tab,R.id.gallery,
         R.id.viewpager,R.id.TextInputLayout,R.id.CoordinatorLayout,R.id.CoordinatorLayout1,R.id.animation,R.id.messenger,
-        R.id.aidl,R.id.custom_view,R.id.custom_view_progress})
+        R.id.aidl,R.id.custom_view,R.id.custom_view_progress,R.id.custom_view_bitmap,R.id.custom_view_viewgroup,R.id.draw_scroll,
+        R.id.lite_pager,R.id.mvvm})
     public void onViewClicked(View view) {
         switch (view.getId()){
             case R.id.custom_img_test:
@@ -113,6 +112,26 @@ public class MainActivity extends BaseActivity {
             case R.id.custom_view_progress:
                 Intent intent14 = new Intent(this, CustomProgressViewActivity.class);
                 startActivity(intent14);
+                break;
+            case R.id.custom_view_bitmap:
+                Intent intent15 = new Intent(this, CustomViewBitmapActivity.class);
+                startActivity(intent15);
+                break;
+            case R.id.custom_view_viewgroup:
+                Intent intent16 = new Intent(this, CustomViewGroupActivity.class);
+                startActivity(intent16);
+                break;
+            case R.id.draw_scroll:
+                Intent intent17 = new Intent(this, DrawScrollActivity.class);
+                startActivity(intent17);
+                break;
+            case R.id.lite_pager:
+                Intent intent18 = new Intent(this, LitePagerActivity.class);
+                startActivity(intent18);
+                break;
+            case R.id.mvvm:
+                Intent intent19 = new Intent(this, MVVMDemoActivity.class);
+                startActivity(intent19);
                 break;
 
         }

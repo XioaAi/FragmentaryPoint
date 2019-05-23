@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <com.zxd.xiaoabapp.view.CustomLinearLayout
+        android:id="@+id/customLinearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:default_width="100dp"
+        android:background="#ff9900"
         app:default_height="100dp"
-        android:background="#ff9900">
+        app:default_width="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="赵秀东"/>
+            android:text="赵秀东" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="赵秀东"/>
+            android:text="赵秀东" />
 
         <Button
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="赵秀东"/>
+            android:text="赵秀东" />
 
     </com.zxd.xiaoabapp.view.CustomLinearLayout>
 

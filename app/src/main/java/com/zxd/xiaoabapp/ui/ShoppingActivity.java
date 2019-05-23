@@ -152,7 +152,7 @@ public class ShoppingActivity extends BaseActivity {
         //移动到起始点（贝塞尔曲线的起点）
         path.moveTo(startX, startY);
         //使用二次萨贝尔曲线：注意第一个起始坐标越大，贝塞尔曲线的横向距离就会越大，一般按照下面的式子取即可
-        path.quadTo((startX + toX) /2, startY, toX, toY);
+        path.quadTo(( toX - startX) /2, startY-100, toX, toY);
         //mPathMeasure用来计算贝塞尔曲线的曲线长度和贝塞尔曲线中间插值的坐标，
         // 如果是true，path会形成一个闭环
         mPathMeasure = new PathMeasure(path, false);
@@ -160,10 +160,10 @@ public class ShoppingActivity extends BaseActivity {
         ObjectAnimator translateYAnimator;
         if(is!=null && is[0]){
             translateXAnimator=ObjectAnimator.ofFloat(goods, "translationX", startX,toX);
-            translateXAnimator.setInterpolator(new AccelerateInterpolator());
+            //translateXAnimator.setInterpolator(new AccelerateInterpolator());
 
-            translateYAnimator=ObjectAnimator.ofFloat(goods, "translationY", startY,toY);
-            translateYAnimator.setInterpolator(new LinearInterpolator());
+            translateYAnimator=ObjectAnimator.ofFloat(goods, "translationY", startY,startY-300,toY);
+            //translateYAnimator.setInterpolator(new LinearInterpolator());
         }else{
             translateXAnimator=ObjectAnimator.ofFloat(goods, "translationX", startX,toX);
             translateXAnimator.setInterpolator(new LinearInterpolator());
@@ -182,7 +182,7 @@ public class ShoppingActivity extends BaseActivity {
 
         AnimatorSet animatorSet=new AnimatorSet();
         animatorSet.play(translateXAnimator).with(translateYAnimator).with(scaleXAnimator).with(scaleYAnimator).with(alphaAnimator).with(rotateAnimator);
-        animatorSet.setDuration(800);
+        animatorSet.setDuration(1800);
         animatorSet.start();
 
         animatorSet.addListener(new AnimatorListenerAdapter() {

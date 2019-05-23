@@ -7,7 +7,9 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Rect;
+import android.os.Build;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -48,6 +50,7 @@ public class ArcView extends View {
         mPaint = new Paint();
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
@@ -57,8 +60,9 @@ public class ArcView extends View {
         canvas.drawRect(rect, mPaint);
         Path path = new Path();
         path.moveTo(0, mHeight - mArcHeight);
-        path.quadTo(mWidth / 2, mHeight, mWidth, mHeight - mArcHeight);
+        path.quadTo(mWidth / 2, mHeight - mArcHeight+60, mWidth, mHeight - mArcHeight);
         canvas.drawPath(path, mPaint);
+
     }
 
     @Override

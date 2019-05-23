@@ -50,7 +50,7 @@ public class ViewPagerActivity extends AppCompatActivity {
     private void addView(String[] strings) {
         for (String str : strings) {
             View view = LayoutInflater.from(getApplicationContext()).inflate(R.layout.main_item, null);
-            TextView textView = (TextView) view.findViewById(R.id.item_text);
+            TextView textView = view.findViewById(R.id.item_text);
             textView.setText(str);
             list.add(view);
         }
