@@ -13,14 +13,14 @@ class QueryWeatherViewModel{
     var weather = Weatherinfo()
     var gson = GsonBuilder().serializeNulls().create()
 
-    lateinit var call : Call
+    var call : Call? = null
 
     fun queryWeather(){
         var okhttp = OkHttpClient()
         var request = Request.Builder().url("http://www.weather.com.cn/data/cityinfo/101210101.html")
                 .get().build()
         call = okhttp.newCall(request)
-        call.enqueue(object :Callback{
+        call?.enqueue(object :Callback{
             override fun onFailure(call: Call?, e: IOException?) {
                 Log.i("XiaoAi",e?.message)
             }

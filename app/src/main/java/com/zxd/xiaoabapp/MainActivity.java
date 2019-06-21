@@ -7,7 +7,9 @@ import android.os.Looper;
 import android.os.Message;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
+import com.mcxiaoke.packer.helper.PackerNg;
 import com.zxd.xiaoabapp.base.BaseActivity;
 import com.zxd.xiaoabapp.ui.AIDLActivity;
 import com.zxd.xiaoabapp.ui.AnimationSetActivity;
@@ -38,11 +40,15 @@ public class MainActivity extends BaseActivity {
     @BindView(R.id.mvvm)
     Button btn;
 
+    Button btn1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        btn1 = findViewById(R.id.custom_img_test);
+        Toast.makeText(this, "渠道名称:"+PackerNg.getMarket(this),Toast.LENGTH_LONG).show();
     }
 
 
@@ -55,15 +61,18 @@ public class MainActivity extends BaseActivity {
             case R.id.custom_img_test:
                 Intent intent = new Intent(this, SweetAlertDialogActivity.class);
                 startActivity(intent);
+                //btn1.setText("1");
                 break;
             case R.id.pager_sliding_tab:
                 Intent intent1 = new Intent(this, PagerSlidingTabStripActivity.class);
                 startActivity(intent1);
+                //btn.setText("123123");
                 break;
             case R.id.tab_viewpager_tab:
                 //Intent intent2 = new Intent(this, TabsViewPageActivity.class);
                 Intent intent2 = new Intent(this, ViewPagerFragmentActivity.class);
                 startActivity(intent2);
+                //btn1.setText("1234");
                 break;
             case R.id.shopping_tab:
                 Intent intent3 = new Intent(this, ShoppingActivity.class);

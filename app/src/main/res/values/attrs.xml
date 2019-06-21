@@ -21,7 +21,6 @@
     <declare-styleable name="QMUITabSegment">
         <attr name="qmui_tab_indicator_height" format="dimension"/>
         <attr name="qmui_tab_has_indicator" format="boolean"/>
-        <attr name="android:textSize"/>
         <attr name="qmui_tab_indicator_top" format="boolean"/>
         <attr name="qmui_tab_mode" format="enum">
             <enum name="scrollable" value="0"/>
@@ -43,7 +42,7 @@
     </declare-styleable>
 
     <declare-styleable name="ArcView">
-        <attr name="arcHeight"/>
+        <attr name="arcHeight" format="dimension"/>
         <attr name="bgColor" format="color"/>
     </declare-styleable>
 
