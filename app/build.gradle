@@ -14,7 +14,7 @@ apply from: 'tinker-support.gradle'
 }*/
 
 android {
-    signingConfigs {
+    /*signingConfigs {
         config {
             keyAlias 'xiaoai'
             keyPassword '123456'
@@ -22,7 +22,7 @@ android {
             storePassword '123456'
             v2SigningEnabled false
         }
-    }
+    }*/
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.zxd.xiaoabapp"
@@ -39,23 +39,23 @@ android {
     }
     buildTypes {
         release {
-            signingConfig signingConfigs.config
+            //signingConfig signingConfigs.config
             minifyEnabled true
             debuggable false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
 
         debug{
-            signingConfig signingConfigs.config
+            //signingConfig signingConfigs.config
             minifyEnabled false
             debuggable true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 
-    dataBinding {
+    /*dataBinding {
         enabled = true
-    }
+    }*/
 }
 
 dependencies {

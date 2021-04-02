@@ -31,6 +31,8 @@ import com.zxd.xiaoabapp.ui.SweetAlertDialogActivity;
 import com.zxd.xiaoabapp.ui.TextInputLayoutActivity;
 import com.zxd.xiaoabapp.ui.ViewPagerActivity;
 import com.zxd.xiaoabapp.ui.ViewPagerFragmentActivity;
+import com.zxd.xiaoabapp.utils.AppFrontBackHelper;
+import com.zxd.xiaoabapp.widget.FloatingView;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -42,6 +44,8 @@ public class MainActivity extends BaseActivity {
 
     Button btn1;
 
+    private FloatingView floatingView = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +53,32 @@ public class MainActivity extends BaseActivity {
 
         btn1 = findViewById(R.id.custom_img_test);
         Toast.makeText(this, "渠道名称:"+PackerNg.getMarket(this),Toast.LENGTH_LONG).show();
+        showFloatView();
+        test();
+    }
+
+    private void showFloatView(){
+        floatingView = new FloatingView(getApplicationContext(),R.layout.floating_test);
+        floatingView.show();
+    }
+
+    private void test(){
+        AppFrontBackHelper helper = new AppFrontBackHelper();
+        helper.register(getApplication(), new AppFrontBackHelper.OnAppStatusListener() {
+            @Override
+            public void onFront() {
+                if(floatingView != null){
+                    floatingView.show();
+                }
+            }
+
+            @Override
+            public void onBack() {
+                if(floatingView != null){
+                    floatingView.dismiss();
+                }
+            }
+        });
     }
 
 
